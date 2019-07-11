@@ -1,0 +1,89 @@
+// Styling for the programacao grid section
+#programacao
+  width: max
+  height: 630px
+
+
+.row_prog
+  display: grid
+  grid-gap: 50px
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
+.row_prog
+  .img-fluid
+    width: 100% 
+    height: 100%
+    object-fit: cover
+
+@media only screen and (max-width: 1200px) 
+  #programacao
+    width: max
+    height: 90%
+
+
+@media only screen and (max-width: 450px)
+  .row_prog
+    .img-fluid
+
+     
+
+.programacao 
+  margin-bottom: -30px
+  .programacao-item 
+    cursor: pointer
+    position: relative
+    display: block
+    max-width: 25rem
+    margin-bottom: 30px
+    border-radius: $border-radius
+    overflow: hidden
+    .programacao-item-caption 
+      position: absolute
+      top: 0
+      left: 0
+      transition: $transition-base
+      opacity: 0
+      background-color: fade-out($primary, .1)
+      &:hover 
+        opacity: 1
+      
+      .programacao-item-caption-content 
+        font-size: 1.5rem
+
+
+// Styling for the programacao modals
+.programacao-modal 
+  .programacao-modal-title 
+    font-size: 2.25rem
+    line-height: 2rem
+    @include media-breakpoint-up(lg) 
+      font-size: 3rem
+      line-height: 2.5rem
+    
+  
+  .close 
+    position: absolute
+    z-index: 1
+    right: 1.5rem
+    top: 1rem
+    font-size: 3rem
+    line-height: 3rem
+    color: $primary
+    opacity: 1
+
+  .iframe-container
+    position: relative
+    width: 100%
+    padding-bottom: 56.25%
+    height: 0
+
+  .iframe-container 
+    iframe
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+
+
