@@ -85,5 +85,40 @@
       width: 100%
       height: 100%
 
+.programacao-modal 
+  .row_ModEnd
+    display: grid
+    grid-gap: 30px
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))
 
+  .row_ModEndEnd
+    display: grid
+    grid-gap: 30px
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 
+.programacao-modal 
+  .row_ModEnd
+    .row
+      margin-left: 70px
+  .row_ModEndEnd
+    .row
+      margin-left: 70px
+
+@media only screen and (max-width: 1150px)
+  .programacao-modal 
+    .row_ModEnd
+      .row
+        margin-left: 60px
+    .row_ModEndEnd
+      .row
+        margin-left: 60px
+
+@media only screen and (max-width: 450px)
+  .programacao-modal 
+    .row_ModEnd
+      .row
+        margin-left: 10px
+
+    .row_ModEndEnd
+      .row
+        margin-left: 9px
