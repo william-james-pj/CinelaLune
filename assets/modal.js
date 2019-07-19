@@ -73,7 +73,7 @@ var r3 = document.getElementById('r3');
 var end3 = document.getElementById('end3');
 
 var titulo3 = "Homem-Aranha - Longe de Casa";
-var descricao3 = "Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Convocado para mais uma missão heróica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio (Jake Gyllenhaal). Classificação indicativa 30 anos, contém violência.";
+var descricao3 = "Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Convocado para mais uma missão heróica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio (Jake Gyllenhaal). Classificação indicativa 10 anos, contém violência.";
 var data3 = "21/07/2039";
 var horas3 = "18:50";
 var estado3 = "São Paulo";
