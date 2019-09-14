@@ -1,0 +1,33 @@
+#pratocinadores
+    width: max
+    .logosPra
+        display: grid
+        grid-gap: 50px
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr))
+        .imgPra
+            width: 150px
+            height: 150px
+            object-fit: cover
+            overflow: hidden
+
+    .logosPra img
+        width: 100%
+        height: 100%
+
+@media only screen and (max-width: 450px)
+  #pratocinadores
+    .logosPra
+        grid-gap: 20px
+
+    .logosPra
+        .imgPra
+            width: 100px
+            height: 100px
+            margin-left: 40px
+
+@media only screen and (max-width: 330px)
+    #pratocinadores
+        .logosPra
+            .imgPra
+                margin-left: 20px
+
