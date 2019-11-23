@@ -1,0 +1,116 @@
+
+.row_proxFilmes
+  display: grid
+  grid-gap: 50px
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
+.row_proxFilmes
+  .img-fluid
+    width: 100% 
+    height: 100%
+    object-fit: cover
+    
+
+@media only screen and (max-width: 1200px) 
+  #proximosFilmes
+    width: max
+    height: 90%
+
+
+@media only screen and (max-width: 450px)
+  .row_proxFilmes
+    .img-fluid
+
+.proximosFilmes 
+  margin-bottom: -30px
+  .proximosFilmes-item 
+    cursor: pointer
+    position: relative
+    display: block
+    max-width: 25rem
+    margin-bottom: 30px
+    border-radius: $border-radius
+    overflow: hidden
+    .proximosFilmes-item-caption 
+      position: absolute
+      top: 0
+      left: 0
+      transition: $transition-base
+      opacity: 0
+      background-color: fade-out($primary, .1)
+      &:hover 
+        opacity: 1
+      
+      .proximosFilmes-item-caption-content 
+        font-size: 1.5rem
+
+.proximosFilmes-modal 
+  .proximosFilmes-modal-title 
+    font-size: 2.25rem
+    line-height: 2rem
+    @include media-breakpoint-up(lg) 
+      font-size: 3rem
+      line-height: 2.5rem
+    
+  
+  .close 
+    position: absolute
+    z-index: 1
+    right: 1.5rem
+    top: 1rem
+    font-size: 3rem
+    line-height: 3rem
+    color: $primary
+    opacity: 1
+
+  .iframe-container
+    position: relative
+    width: 100%
+    padding-bottom: 56.25%
+    height: 0
+
+  .iframe-container 
+    iframe
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+.proximosFilmes-modal 
+  .row_ModEnd
+    display: grid
+    grid-gap: 30px
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))
+
+  .row_ModEndEnd
+    display: grid
+    grid-gap: 30px
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+
+.proximosFilmes-modal 
+  .row_ModEnd
+    .row
+      margin-left: 70px
+  .row_ModEndEnd
+    .row
+      margin-left: 70px
+
+@media only screen and (max-width: 1150px)
+  .proximosFilmes-modal 
+    .row_ModEnd
+      .row
+        margin-left: 60px
+    .row_ModEndEnd
+      .row
+        margin-left: 60px
+
+@media only screen and (max-width: 450px)
+  .proximosFilmes-modal 
+    .row_ModEnd
+      .row
+        margin-left: 10px
+
+    .row_ModEndEnd
+      .row
+        margin-left: 9px

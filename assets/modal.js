@@ -10,15 +10,15 @@ var b1 = document.getElementById('b1');
 var r1 = document.getElementById('r1');
 var end1 = document.getElementById('end1');
 
-var titulo1 = "Vingadores: Ultimato";
-var descricao1 = "Depois dos devastadores eventos de Vingadores: Guerra Infinita, o Universo está em ruínas por conta dos esforços do Titã Louco, Thanos. Com a ajuda dos seus aliados restantes, os Vingadores devem se reunir mais uma vez para desfazer as ações de Thanos e restaurar a ordem do universo de uma vez por todas, não importam as consequências que os esperam. Classificação indicativa 12 anos, contém violência e drogas lícitas.";
-var data1 = "07/07/2019";
+var titulo1 = "Um Jantar para Idiotas";
+var descricao1 = "Adilson, um executivo em ascensão, trabalha para superiores que organizam jantares para celebrar a idiotice de seus clientes. O convidado que levar a pessoa mais divertida para o evento ganha um prêmio. Tim nega o convite, a princípio, mas muda de idéia quando conhece Caique, um homem que cria maquetes com ratos empalhados.";
+var data1 = "04/01/2020";
 var horas1 = "18:50";
 var estado1 = "São Paulo";
 var cidade1 = "São Roque";
 var bairro1 = "Centro";
-var rua1 = "Rua n sei";
-var endereco1 = "Praça da Matriz";
+var rua1 = "Monsenhor Silvestre Murari";
+var endereco1 = "Praça da Matriz de São Roque";
 
 t1.innerHTML = titulo1;
 d1.innerHTML = descricao1;
@@ -41,15 +41,15 @@ var b2 = document.getElementById('b2');
 var r2 = document.getElementById('r2');
 var end2 = document.getElementById('end2');
 
-var titulo2 = "Annabelle 3: De Volta Para Casa";
-var descricao2 = "Quando Ed (Patrick Wilson) e Lorraine Warren (Vera Farmiga) deixam sua casa durante um fim de semana para investigar mais um caso paranormal, a filha do casal, a pequena Judy Warren (McKenna Grace), é deixada aos cuidados de sua babá (Madison Iseman). Mas as duas entram em perigo quando uma amiga delas invade a Sala dos Artefatos dos Warren e abre a cristaleira onde a maligna boneca Annabelle estava contida devolvendo à boneca o poder de animar os letais e aterrorizantes objetos contidos na Sala. Classificação indicativa 14 anos, contém medo e violência.";
-var data2 = "14/07/2029";
+var titulo2 = "SuperJames";
+var descricao2 = "O programador de computadores Felipe Sckio é contratado pelo magnata das finanças Ross Webster para tomar um satélite meteorológico e aniquilar as plantações de café da Colômbia. Quando SuperJames frustra o plano, Webster ordena Gorman a usar o satélite para localizar a criptonita. Um elemento alterado na criptonita por Sckio causa efeitos colaterais no homem de aço.";
+var data2 = "01/02/2020";
 var horas2 = "18:50";
 var estado2 = "São Paulo";
-var cidade2 = "São Roque";
+var cidade2 = "Araçariguama";
 var bairro2 = "Centro";
-var rua2 = "Rua n sei";
-var endereco2 = "Praça da Matriz";
+var rua2 = "Praça Albertino de Castro";
+var endereco2 = "Praça Da Matriz";
 
 t2.innerHTML = titulo2;
 d2.innerHTML = descricao2;
@@ -72,15 +72,15 @@ var b3 = document.getElementById('b3');
 var r3 = document.getElementById('r3');
 var end3 = document.getElementById('end3');
 
-var titulo3 = "Homem-Aranha - Longe de Casa";
-var descricao3 = "Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Convocado para mais uma missão heróica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio (Jake Gyllenhaal). Classificação indicativa 10 anos, contém violência.";
-var data3 = "21/07/2039";
+var titulo3 = "X-Sckio - First Class";
+var descricao3 = "No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Sckio conhece um mutante chamado Erik Lehnsherr. Apesar de suas origens muito diferentes - Charles cresceu em uma família rica enquanto Erik perdeu seus pais em Auschwitz, os dois se tornam grandes amigos. Enquanto o mundo oscila à beira de uma guerra nuclear, Sckio e Erik unem forças com outros mutantes para salvar a humanidade. No entanto, um acontecimento separa os dois amigos.";
+var data3 = "07/03/2020";
 var horas3 = "18:50";
 var estado3 = "São Paulo";
-var cidade3 = "São Roque";
-var bairro3 = "Centro";
-var rua3 = "Rua n sei";
-var endereco3 = "Praça da Matriz";
+var cidade3 = "Alumínio";
+var bairro3 = "Vila Industrial";
+var rua3 = "José Hermínio de Morães";
+var endereco3 = "Praça da Cultura";
 
 t3.innerHTML = titulo3;
 d3.innerHTML = descricao3;
@@ -95,30 +95,22 @@ end3.innerHTML = endereco3;
 // Modal 4
 var t4 = document.getElementById('t4');
 var d4 = document.getElementById('d4');
-var dia4 = document.getElementById('dia4');
-var hora4 = document.getElementById('hora4');
-var e4 = document.getElementById('e4');
-var c4 = document.getElementById('c4');
-var b4 = document.getElementById('b4');
-var r4 = document.getElementById('r4');
-var end4 = document.getElementById('end4');
 
-var titulo4 = "O Rei Leão";
-var descricao4 = "Simba (Donald Glover) é um jovem leão cujo destino é se tornar o rei da selva. Entretanto, uma armadilha elaborada por seu tio Scar (Chiwetel Ejiofor) faz com que Mufasa (James Earl Jones), o atual rei, morra ao tentar salvar o filhote. Consumido pela culpa, Simba deixa o reino rumo a um local distante, onde encontra amigos que o ensinam a mais uma vez ter prazer pela vida. Classificação indicativa 10 anos, contém violência.";
-var data4 = "28/07/2049";
-var horas4 = "18:50";
-var estado4 = "São Paulo";
-var cidade4 = "São Roque";
-var bairro4 = "Centro";
-var rua4 = "Rua n sei";
-var endereco4 = "Praça da Matriz";
+
+var titulo4 = "SuperBabies - Baby Geniuses 2";
+var descricao4 = "Os bebês geniais, liderados por Kahuma, juntam-se para combater um poderoso e perigoso chefe da mídia que tem a intenção de lançar um satélite para controlar a mente dos humanos e tratá-los como servos.";
+
 
 t4.innerHTML = titulo4;
 d4.innerHTML = descricao4;
-dia4.innerHTML = data4;
-hora4.innerHTML = horas4;
-e4.innerHTML = estado4;
-c4.innerHTML = cidade4;
-b4.innerHTML = bairro4;
-r4.innerHTML = rua4;
-end4.innerHTML = endereco4;
+
+
+// Modal 5
+var t5 = document.getElementById('t5');
+var d5 = document.getElementById('d5');
+
+var titulo5 = "Titanic";
+var descricao5 = "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fatídica jornada do Titanic, em 1912. Embora esteja noiva do arrogante herdeiro de uma siderúrgica, a jovem desafia sua família e amigos em busca do verdadeiro amor.";
+
+t5.innerHTML = titulo5;
+d5.innerHTML = descricao5;
